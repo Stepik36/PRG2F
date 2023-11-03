@@ -20,10 +20,10 @@ public class Loops {
 //            input= sc.nextInt();
 //        }
 
-        int dimension =  100;
-        for (int i = 1; i < dimension*dimension+1; i++) {
+        int dimension = 100;
+        for (int i = 1; i < dimension * dimension + 1; i++) {
             System.out.print("#\t");
-            if (i % dimension == 0){
+            if (i % dimension == 0) {
                 System.out.println();
             }
         }
@@ -35,8 +35,8 @@ public class Loops {
             System.out.println("zadej cisla, zadavani ukoncis zadanim -1");
             Scanner sc = new Scanner(System.in);
             int input;
-            int i = sc.nextInt();
-            while (i != -1) {
+            int j = sc.nextInt();
+            while (j != -1) {
                 input = sc.nextInt();
                 if (input % 2 == 0) {
                     System.err.println(input);
@@ -45,10 +45,11 @@ public class Loops {
             }
 
             System.out.println("zadej maximum");
-            for (int i = 0; i < i; i++) {
+            for (int i = 0; i < j; i++) {
                 if (i % 2 == 0) {
                     System.out.println(i);
                 }
             }
         }
+    }
 }
