@@ -1,6 +1,8 @@
 package pole;
 
-public class Arrays {
+import java.util.Arrays;
+
+public class ArraysPractice {
     public static void main(String[] args) {
         int[] pole = {5 , 32 ,21 ,15};
         int[] pole2 = new int[10];
@@ -18,6 +20,11 @@ public class Arrays {
         for (int i = 0 ;i < pole2.length; i++){
             System.out.println(pole2[i]);
         }
+        int[] numArray = new int [15];
+        for (int i = 0; i < numArray.length; i++) {
+            numArray[i] = (i+1)*5;}
+            System.out.println(Arrays.toString(numArray));
+
 
     }
 }
