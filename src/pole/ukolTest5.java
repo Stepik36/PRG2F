@@ -13,5 +13,6 @@ public class ukolTest5 {
 
         }
         System.out.println(Arrays.toString(prazdny));
+        System.out.println("vojta je nůb");
     }
 }
