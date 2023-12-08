@@ -9,7 +9,7 @@ public class TEST3 {
         int soucet = 0;
 
         for (int i = 0; i < score.length; i++) {
-            if (score > 70)
+//            if (score > 70)
                 System.out.println("uspel");
 
         }
