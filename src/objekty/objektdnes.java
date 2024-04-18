@@ -22,9 +22,15 @@ public class objektdnes {
         }
     }
     void buy(int bottles){
-        balance -= PRICE_PER_BUY * bottles;
-        this.bottles += bottles;
+        if (balance > PRICE_PER_BUY * bottles){
+            balance -= PRICE_PER_BUY * bottles;
+            this.bottles += bottles;
+        }else {
+            System.out.println("nepodarilo se nakoupit");
+        }
+
 
 
     }
+    void printInfo(){}
 }
