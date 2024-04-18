@@ -1,5 +1,6 @@
 package pole;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class dvojpole {
@@ -22,6 +23,16 @@ public class dvojpole {
 
         }
         System.out.println("Soucet sloupce " + input + ": " + sum);
+
+
+
+
+        ArrayList<String> listOfString = new ArrayList<>();
+        listOfString.add("Hello");
+        listOfString.get(0);
+        listOfString.contains("Hello");
+        listOfString.size();
+
 
     }
 }
